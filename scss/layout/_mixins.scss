@@ -4,3 +4,22 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@mixin hover-btn() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background: peachpuff;
+  border-radius: 100%;
+  opacity: .8;
+  transition: all .2s ease-in-out;
+  &:hover {
+    -webkit-transform: scale(1.2);
+  }
+  i {
+    padding-left: 1px;
+    font-size: 1.6em;
+  }
+}
