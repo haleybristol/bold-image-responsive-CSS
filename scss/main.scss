@@ -1,0 +1,129 @@
+@import 'reset/_reset';
+@import 'layout/_mixins';
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  font-family: Inconsolata;
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+  }
+  li {
+
+  }
+}
+
+.background {
+  background-image: url("../img/nite.jpg");
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  max-width: 1600px;
+  font-family: Helvetica;
+  p, h1 {
+    color: white;
+    text-align: center;
+
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+    .info {
+      line-height: 50px;
+      width: 400px;
+    }
+}
+
+.dolphin {
+  transition: 1s;
+  width: 350px;
+  margin-bottom: 100px;
+}
+
+.dolphin:hover {
+  -webkit-transform: rotate(2turn);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  @media screen and (min-width: 900px) {
+  }
+    .d1 {
+      background-image: url("../img/d4.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 90%;
+      height: 60vh;
+      @media screen and (min-width: 900px) {
+        margin: 0;
+        width: 100%;
+        height: 40vh;
+      }
+    }
+    .d2 {
+      height: 40vh;
+      width: 90%;
+      margin: 20px auto;
+      @include img("../img/d4.jpg", 100%, 100%);
+      @media screen and (min-width: 700px) {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .d3 {
+      height: 500px;
+      width: 90%;
+      margin: 20px auto;
+      @include img("../img/d5.jpg", 100%, 100%);
+      @media screen and (min-width: 700px) {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .d4 {
+      height: 500px;
+      width: 90%;
+      margin: 20px auto;
+      @include img("../img/d3.jpg", 100%, 100%);
+      @media screen and (min-width: 900px) {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .d5 {
+      height: 350px;
+      width: 90%;
+      margin: 20px auto;
+      @include img("../img/d1.jpg", 100%, 100%);
+      @media screen and (min-width: 700px) {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .d6 {
+      height: 350px;
+      width: 90%;
+      margin: 20px auto;
+      @include img("../img/d6.jpg", 100%, 100%);
+      @media screen and (min-width: 700px) {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .col1 {
+      display: flex;
+
+    }
+  }
