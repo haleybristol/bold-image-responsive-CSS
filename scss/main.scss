@@ -68,14 +68,7 @@ header {
 }
 
     .d1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-      min-width: 550px;
-      overflow: hidden;
-      width: 90%;
-      margin: 20px auto;
+      @extend %main-content;
       @include img("../img/d4.gif", 100%, 100%);
       .d1-o {
         @include hover-btn;
@@ -83,66 +76,35 @@ header {
       }
 
     .d2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      height: 50vh;
-      width: 90%;
-      min-width: 550px;
-      margin: 20px auto;
+      @extend %main-content;
       @include img("../img/d2.jpg", 100%, 100%);
       .d2-o {
         @include hover-btn;
         }
     }
     .d3 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-      width: 90%;
-      min-width: 550px;
-      margin: 20px auto;
+      @extend %main-content;
       @include img("../img/d5.jpg", 100%, 100%);
       .d3-o {
         @include hover-btn;
         }
     }
     .d4 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-      width: 90%;
-      min-width: 550px;
-      margin: 20px auto;
+      @extend %main-content;
       @include img("../img/d4.jpg", 100%, 100%);
       .d4-o {
         @include hover-btn;
         }
     }
     .d5 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-      width: 90%;
-      min-width: 550px;
-      margin: 20px auto;
+      @extend %main-content;
       @include img("../img/d3.jpg", 100%, 100%);
       .d5-o {
         @include hover-btn;
         }
     }
     .d6 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-      width: 90%;
-      min-width: 550px;
-      margin: 20px auto;
+      @extend %main-content;
       @include img("../img/d6.jpg", 100%, 100%);
       .d6-o {
         @include hover-btn;
@@ -163,22 +125,18 @@ header {
     }
     .d2 {
       flex: 1 0 25%;
-      overflow: hidden;
     }
     .d3 {
       flex: 1 0 25%;
-      overflow: hidden;
     }
   }
   .col2 {
     display: flex;
     .d4 {
       flex: 1 2 25%;
-      overflow: hidden;
     }
     .d5 {
       flex: 1 2 25%;
-      overflow: hidden;
     }
     .d6 {
       flex: 2 0 50%;

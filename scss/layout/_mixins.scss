@@ -3,6 +3,7 @@
   background-size: $width $height;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 @mixin hover-btn() {
@@ -22,4 +23,13 @@
     padding-left: 1px;
     font-size: 1.6em;
   }
+}
+
+%main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 90%;
+  margin: 20px auto;
 }

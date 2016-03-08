@@ -41,6 +41,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.d1, .d2, .d3, .d4, .d5, .d6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 90%;
+  margin: 20px auto; }
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -105,18 +113,11 @@ header {
   -webkit-transform: rotate(2turn); }
 
 .d1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  min-width: 550px;
-  overflow: hidden;
-  width: 90%;
-  margin: 20px auto;
   background: url("../img/d4.gif");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .d1 .d1-o {
     display: flex;
     justify-content: center;
@@ -134,18 +135,11 @@ header {
       font-size: 1.6em; }
 
 .d2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 50vh;
-  width: 90%;
-  min-width: 550px;
-  margin: 20px auto;
   background: url("../img/d2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .d2 .d2-o {
     display: flex;
     justify-content: center;
@@ -163,17 +157,11 @@ header {
       font-size: 1.6em; }
 
 .d3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  width: 90%;
-  min-width: 550px;
-  margin: 20px auto;
   background: url("../img/d5.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .d3 .d3-o {
     display: flex;
     justify-content: center;
@@ -191,17 +179,11 @@ header {
       font-size: 1.6em; }
 
 .d4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  width: 90%;
-  min-width: 550px;
-  margin: 20px auto;
   background: url("../img/d4.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .d4 .d4-o {
     display: flex;
     justify-content: center;
@@ -219,17 +201,11 @@ header {
       font-size: 1.6em; }
 
 .d5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  width: 90%;
-  min-width: 550px;
-  margin: 20px auto;
   background: url("../img/d3.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .d5 .d5-o {
     display: flex;
     justify-content: center;
@@ -247,17 +223,11 @@ header {
       font-size: 1.6em; }
 
 .d6 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  width: 90%;
-  min-width: 550px;
-  margin: 20px auto;
   background: url("../img/d6.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .d6 .d6-o {
     display: flex;
     justify-content: center;
@@ -285,20 +255,16 @@ header {
     .col1 .d1 {
       flex: 2 0 50%; }
     .col1 .d2 {
-      flex: 1 0 25%;
-      overflow: hidden; }
+      flex: 1 0 25%; }
     .col1 .d3 {
-      flex: 1 0 25%;
-      overflow: hidden; }
+      flex: 1 0 25%; }
 
   .col2 {
     display: flex; }
     .col2 .d4 {
-      flex: 1 2 25%;
-      overflow: hidden; }
+      flex: 1 2 25%; }
     .col2 .d5 {
-      flex: 1 2 25%;
-      overflow: hidden; }
+      flex: 1 2 25%; }
     .col2 .d6 {
       flex: 2 0 50%; } }
 
