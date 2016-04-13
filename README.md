@@ -1,5 +1,4 @@
-# //Project Title//
-Dolphinz 4 sale
+#Responsive Layout Using Flex
 
 #### By Haley Bristol
 
@@ -8,7 +7,11 @@ This is a webpage created to display my ability to create a responsive site usin
 
 ## Setup/Installation Requirements
 
-Git Clone!
+```
+$ cd desktop
+$ git clone <repository-url>
+$ cd <repository name>
+
 
 ## Known Bugs
 None
@@ -19,7 +22,10 @@ Feel free to contact me at hebristol@gmail.com.
 
 ## Technologies Used
 
-HTML CSS
+HTML<br>
+CSS <br>
+Flexbox <br>
+Sass
 
 ### License
 
