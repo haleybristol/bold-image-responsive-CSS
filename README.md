@@ -1,9 +1,9 @@
-#Responsive Layout Using Flex
+#Modern Responsive Layout Using Flex
 
 #### By Haley Bristol
 
 ## Description
-This is a webpage created to display my ability to create a responsive site using flexbox.
+This is a responsive web application made using CSS and flexbox. It is a modern looking template that uses CSS animations and multiple tiled images to catch the users eye.
 
 ## Setup/Installation Requirements
 
@@ -11,10 +11,7 @@ This is a webpage created to display my ability to create a responsive site usin
 $ cd desktop
 $ git clone <repository-url>
 $ cd <repository name>
-
-
-## Known Bugs
-None
+```
 
 ## Support and contact details
 
