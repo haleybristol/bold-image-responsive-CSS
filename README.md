@@ -11,6 +11,7 @@ This is a responsive web application made using CSS and flexbox. It is a modern 
 $ cd desktop
 $ git clone <repository-url>
 $ cd <repository name>
+$ sass --watch scss:css
 ```
 
 ## Support and contact details
