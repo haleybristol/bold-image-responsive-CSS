@@ -18,7 +18,7 @@ $ sass --watch scss:css
 
 ## Support and contact details
 
-Feel free to contact me at hebristol@gmail.com.
+Feel free to contact me at hebristol@gmail.com with any questions or suggestions.
 
 ## Technologies Used
 
