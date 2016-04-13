@@ -7,8 +7,7 @@ This is a responsive web application made using CSS and flexbox. It is a modern 
 
 ## Setup/Installation Requirements
 
-Install Sass:
-<a href="http://sass-lang.com/install"></a>
+Install Sass at http://sass-lang.com/install
 
 ```
 $ cd desktop
